@@ -6,7 +6,7 @@ diabetes = pd.read_csv('diabetes.csv')
 print(diabetes.columns)
 
 #explore data
-print("hello from the other side")
+print("hello for the second time")
 diabetes.head()
 print("dimension of diabetes data: {}".format(diabetes.shape))
 
