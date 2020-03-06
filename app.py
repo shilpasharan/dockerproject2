@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -99,4 +98,3 @@ print("Accuracy on Random Forest with max_depth = 3 training set: {:.3f}".format
 print("Accuracy on Random Forest with max_depth = 3 test set: {:.3f}".format(rf1.score(X_test, y_test)))
 
 plot_feature_importances_diabetes(rf)
-
